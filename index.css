@@ -1,0 +1,232 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-image: url(site-images/tovibubbles.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow-x: hidden;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+#scriptblocker{
+  position: fixed;
+  z-index: 10;
+  color: #ff4444;
+  font-size: 20px;
+  margin-top: -180px;
+}
+
+
+#topnav{
+  margin-top: -10px;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 40px;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: rgb(256, 256, 256, 0.5);
+  backdrop-filter: blur(15px);
+  transition-duration: 0.8s;
+  overflow: hidden;
+  box-shadow: 0px 1px 0px 0px grey;
+}
+.tovilogomini{
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+#navlogo:hover{
+  cursor: pointer;
+}
+
+
+#logoholder{
+  position: relative;
+  display: block;
+  height: 140px;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.2s;
+}
+@media (orientation: portrait){
+#logoholder{
+  width: 425px;
+}
+}
+
+#tovilogoheader{
+  width: 400px;
+  height: 140px;
+  object-fit: cover;
+}
+
+#mediatxt{
+  font-size: 152px;
+  width: 450px;
+  height: 140px;
+  margin-top: -25px;
+  transition-duration: 0.2s;
+}
+#mediatxt:hover{
+  cursor: default;
+}
+@media (orientation: portrait){
+  #mediatxt{
+    margin-top: -35px;
+  }
+}
+
+.frontlogo{
+  float: left;
+}
+
+#pfc{
+  font-size: 30px;
+  text-align: center;
+}
+@media (orientation: portrait){
+  #pfc{
+    width: 100%;
+    margin-top: 130px;
+    max-height: 35px;
+  }
+}
+
+#readabout{
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  height: 30px;
+  width: 100px;
+  box-shadow: 0px 0px 0px 1px#008570;
+  border-radius: 30px;
+  transition-duration: 0.2s;
+  backdrop-filter: blur(10px);
+}
+#readabout:hover{
+  cursor: pointer;
+  background: rgb(20,204,244);
+  background: rgb(13,129,154);
+  background: linear-gradient(225deg, rgba(13,129,154,0.5) 7%, rgba(0,133,112,0.5) 100%);
+  box-shadow: 0px 0px 0px 0px white;
+  color: white;
+}
+#titleholder{
+  width: 100%;
+  height: auto;
+  margin-top: 250px;
+}
+
+#mainbody{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: auto;
+  margin-top: 60vh;
+  background-color: black;
+  padding-bottom: 100px;
+}
+#mainbodylift{
+  margin-top: 150px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+#pfcmain{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+#tovilinksholder{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 300px;
+}
+@media (orientation: portrait){
+  #tovilinksholder{
+    height: 600px;
+  }
+}
+#tovilinksbg{
+  height: 100%;
+  width: 100%;
+  background-image: url(site-images/tovibubbles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#tovilinksbgcover{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+}
+#tovifootercontents{
+  width: 95%;
+  height: auto;
+  color: #1f1f1f;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footercontentsholder{
+  width: 100%;
+  max-width: 800px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tf{
+  width: 266px;
+  height: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (orientation: portrait){
+  #footercontentsholder{
+    height: 450px;
+  }
+  .tf{
+    height: 150px;
+  }
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+a:hover{
+  color: rgba(0,133,112);
+  cursor: pointer;
+}
+.footerheader{
+  font-size: 25px;
+}
+.footerdesc{
+  font-size: 15px;
+}
+#llc{
+  width: 100%;
+  text-align: center;
+}
